@@ -1,0 +1,39 @@
+.blog{
+    width:40%;
+    height:80%;
+    flex-direction: column;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2,1fr);
+    gap:0.4vw;
+}
+.image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.blog-text{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:0.5vw;
+}
+@media (max-width:790px){
+    .blog{
+        width:100%;  
+        gap:0;
+    }
+    .blog-text {
+        gap:3vw;
+    }
+    .blog-text .one{
+       font-size: 3vw;
+    }
+    .blog-text .two{
+        font-size: 5vw;
+    }
+    .blog-text .three{
+        font-size: 4vw;
+        line-height: 4.5vw;
+    }
+}

@@ -1,0 +1,18 @@
+.page3{
+    width:100%;
+    height:90vh;
+}
+.slider2{
+    width:80%;
+    height: 80%;
+}
+.new-arrivals{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-slider{
+    width:100%;
+    height:90%;
+    margin-top: 1.5vw;
+}

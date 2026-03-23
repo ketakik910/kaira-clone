@@ -1,0 +1,11 @@
+.page7{
+    width:100%;
+    height:80vh;
+    background-color: #F1F1F0;
+    flex-direction: column;
+}
+.small-text{
+    width:100%;
+    height:50%;
+    margin-top: 2vw;
+}

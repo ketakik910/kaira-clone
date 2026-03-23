@@ -1,0 +1,39 @@
+.swipercontainer{
+    width:100%;
+    margin: auto;
+    height:100%;
+}
+.mySwiper2{
+    width:100%;
+    height:100%;
+}
+.coverflow{
+    width:100%;
+    height:100%;
+    /* background-color: blueviolet; */
+    flex-direction: column;
+}
+.coverflow h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.swiper-slide-active {
+    color: rgb(94, 90, 90) !important; /* Make active slide text black */
+    font-weight: bold; /* Optional: Emphasize active slide */
+    transition: color 0.3s ease-in-out;
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 10;
+  }
+  
+  /* Style for inactive slides */
+  .mySwiper2 .swiper-slide {
+    opacity: 0.5; 
+    transform: scale(0.9);
+    color: rgba(193, 190, 190, 0.849); /* Gray text for inactive slides */
+    transition: color 0.3s ease-in-out;
+    z-index: 1; 
+  }
+ 
+  
