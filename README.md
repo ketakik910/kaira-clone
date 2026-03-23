@@ -35,6 +35,8 @@ The project follows a component-based architecture:
 * Separate CSS files for each component
 
 ---
-## Run locally
+## ▶️ Run Locally
+```bash
 npm install
 npm run dev
+```
